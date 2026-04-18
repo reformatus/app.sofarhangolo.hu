@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Csillagpont kották",
+    "api": "https://reflabs.hu/csillagpont-kottatar/api",
+    "defaultEnabled": true
+  },
+  {
+    "name": "Sófár Kottatár",
+    "api": "https://sofarkotta.hu/api",
+    "defaultEnabled": true
+  }
+]

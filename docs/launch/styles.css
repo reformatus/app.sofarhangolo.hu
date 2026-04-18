@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.launch-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 36px 32px 34px;
+    text-align: center;
+    max-width: 440px;
+    width: 100%;
+    margin-top: 60px;
+    min-height: 400px; /* Prevent card height jumping */
+}
+
+.app-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.app-name {
+    font-size: 30px;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+}
+
+.app-name a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(45, 55, 72, 0.2);
+    transition: border-bottom-color 0.2s ease;
+}
+
+.app-name a:hover {
+    border-bottom-color: #c2a03f;
+}
+
+.app-icon-link {
+    display: inline-block;
+}
+
+.description {
+    font-size: 16px;
+    color: #4a5568;
+    line-height: 1.5;
+    margin: 14px 0 22px;
+    min-height: 48px; /* Prevent height jumping */
+    transition: opacity 0.3s ease;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.download-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+}
+
+.button-container > .download-section:last-child {
+    margin-top: 12px;
+}
+
+.download-label {
+    text-align: left;
+    font-size: 15px;
+    color: #4a5568;
+    font-weight: 600;
+}
+
+.download-label-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    min-height: 52px; /* Prevent height jumping */
+    white-space: normal; /* Allow text wrapping */
+    text-align: center;
+    line-height: 1.3;
+}
+
+.launch-download-row-wrap {
+    display: block;
+}
+
+#launchDownloadCardSlot {
+    min-width: 0;
+}
+
+#launchDownloadCardSlot .download-row {
+    min-height: 84px;
+    height: 100%;
+    box-shadow: none;
+}
+
+#launchDownloadCardSlot .download-row .download-options {
+    justify-content: flex-end;
+}
+
+.launch-download-fallback {
+    width: 100%;
+    min-height: 84px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background: #f8fafc;
+    color: #334155;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.launch-download-fallback:hover {
+    background: #eef2f7;
+    border-color: #cbd5e1;
+}
+
+.btn-options {
+    width: 36px;
+    height: 36px;
+    min-height: 36px;
+    padding: 0;
+    border: none;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #475569;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s ease;
+}
+
+.btn-options:hover {
+    background: #e8edf3;
+}
+
+.btn-options .material-icons {
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #c2a03f;
+    color: white;
+}
+
+.btn-primary.platform-detected {
+    background-color: #af912d; /* Slightly darker to indicate detected platform */
+}
+
+.btn-primary:hover {
+    background-color: #b18f2f;
+}
+
+.btn-primary.beta-button {
+    background-color: #f59e0b; /* Orange for beta */
+}
+
+.btn-primary.beta-button:hover {
+    background-color: #e38f09;
+}
+
+.btn-primary.beta-button.platform-detected {
+    background-color: #d97706; /* Darker orange for detected beta */
+}
+
+.btn-secondary {
+    background-color: #55928e;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #4a817d;
+}
+
+.btn-tertiary {
+    background-color: white;
+    color: #4a5568;
+    border: 2px solid #e2e8f0;
+}
+
+.btn-tertiary:hover {
+    background-color: #f8fafc;
+    border-color: #c2a03f;
+}
+
+.material-icons {
+    margin-right: 8px;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+/* Store selection dialog */
+.store-dialog {
+    border: none;
+    padding: 0;
+    background: transparent;
+    width: min(92vw, 520px);
+    max-height: calc(100vh - 40px);
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.22);
+    opacity: 0;
+    transform: translateY(10px) scale(0.985);
+    margin: auto;
+    inset: 0;
+}
+
+.dialog-content {
+    background: white;
+    border-radius: 16px;
+    padding: 28px;
+    max-width: 520px;
+    width: min(92vw, 520px);
+    text-align: center;
+    box-shadow: none;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+}
+
+.store-dialog::backdrop {
+    background: rgba(15, 23, 42, 0.36);
+    opacity: 0;
+}
+
+.store-dialog[open] {
+    animation: storeDialogIn 0.22s ease-out forwards;
+}
+
+.store-dialog[open]::backdrop {
+    animation: storeBackdropIn 0.22s ease-out forwards;
+}
+
+.store-dialog.is-closing {
+    animation: storeDialogOut 0.18s ease-in forwards;
+}
+
+.store-dialog.is-closing::backdrop {
+    animation: storeBackdropOut 0.18s ease-in forwards;
+}
+
+.dialog-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 16px;
+}
+
+.store-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.store-btn {
+    padding: 12px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2d3748;
+    position: relative;
+}
+
+.store-btn.cancel-btn {
+    background-color: #f3f4f6;
+    margin-top: 12px;
+}
+
+.store-status {
+    font-size: 11px;
+    position: absolute;
+    bottom: 4px;
+    right: 8px;
+    color: #888;
+    font-style: italic;
+}
+
+.store-btn:hover {
+    border-color: #c2a03f;
+    background: #fefcf3;
+}
+
+.store-btn .material-icons {
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+@media (max-width: 480px) {
+    .launch-card {
+        padding: 24px 20px 22px;
+        margin-top: 40px;
+    }
+
+    .app-name {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .store-options {
+        grid-template-columns: 1fr;
+    }
+
+    .btn {
+        padding: 16px 20px; /* Increase padding for better touch targets */
+        font-size: 15px;
+        min-height: auto; /* Allow height to grow with content */
+        height: auto;
+    }
+
+    .btn-options {
+        width: 36px;
+        height: 36px;
+        min-height: 36px;
+    }
+
+    #launchDownloadCardSlot .download-row,
+    .launch-download-fallback {
+        min-height: 72px;
+    }
+
+    .material-icons {
+        font-size: 18px; /* Slightly smaller icons on mobile */
+    }
+}
+
+/* Ensure proper scrolling on mobile */
+@media (max-height: 600px) {
+    .store-dialog {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .dialog-content {
+        max-height: calc(100vh - 40px);
+        overflow-y: auto;
+    }
+}
+
+@keyframes storeDialogIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.985);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes storeDialogOut {
+    from {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(8px) scale(0.985);
+    }
+}
+
+@keyframes storeBackdropIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes storeBackdropOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
