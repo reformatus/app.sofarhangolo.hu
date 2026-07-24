@@ -87,7 +87,17 @@ window.sofarSharedConfig = {
                 "name": "Google Play Beta"
               }
             ],
-            "downloadOptions": []
+            "downloadOptions": [
+              {
+                "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.1%2B1020100/sofar-hangolo-1.2.1%2B1020100.apk",
+                "name": "APK",
+                "fileName": "sofar-hangolo-1.2.1+1020100.apk",
+                "downloadCount": 0,
+                "downloadCountLabel": "0 letöltés",
+                "sizeBytes": 90194759,
+                "sizeLabel": "86.0 MB"
+              }
+            ]
           },
           "ios": {
             "name": "iOS",
@@ -98,7 +108,17 @@ window.sofarSharedConfig = {
                 "name": "TestFlight"
               }
             ],
-            "downloadOptions": []
+            "downloadOptions": [
+              {
+                "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.1%2B1020100/sofar-hangolo-1.2.1%2B1020100.ipa",
+                "name": "IPA",
+                "fileName": "sofar-hangolo-1.2.1+1020100.ipa",
+                "downloadCount": 0,
+                "downloadCountLabel": "0 letöltés",
+                "sizeBytes": 28101407,
+                "sizeLabel": "26.8 MB"
+              }
+            ]
           },
           "windows": {
             "name": "Windows",
