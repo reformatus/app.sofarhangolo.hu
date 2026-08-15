@@ -170,8 +170,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.3%2B1020300/sofar-hangolo-1.2.3-linux-x86_64.flatpak",
                 "name": "Flatpak",
                 "fileName": "sofar-hangolo-1.2.3-linux-x86_64.flatpak",
-                "downloadCount": 0,
-                "downloadCountLabel": "0 letöltés",
+                "downloadCount": 3,
+                "downloadCountLabel": "3 letöltés",
                 "sizeBytes": 12823352,
                 "sizeLabel": "12.2 MB"
               }
