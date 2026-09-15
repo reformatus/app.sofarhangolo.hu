@@ -113,8 +113,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.3%2B1020300/sofar-hangolo-1.2.3%2B1020300.ipa",
                 "name": "IPA",
                 "fileName": "sofar-hangolo-1.2.3+1020300.ipa",
-                "downloadCount": 0,
-                "downloadCountLabel": "0 letöltés",
+                "downloadCount": 1,
+                "downloadCountLabel": "1 letöltés",
                 "sizeBytes": 28101396,
                 "sizeLabel": "26.8 MB"
               }
@@ -129,8 +129,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.3%2B1020300/sofar-hangolo-1.2.3-windows-store.msix",
                 "name": "MSIX csomag",
                 "fileName": "sofar-hangolo-1.2.3-windows-store.msix",
-                "downloadCount": 0,
-                "downloadCountLabel": "0 letöltés",
+                "downloadCount": 1,
+                "downloadCountLabel": "1 letöltés",
                 "sizeBytes": 22318665,
                 "sizeLabel": "21.3 MB"
               },
@@ -154,8 +154,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.3%2B1020300/Sofar-Hangolo-1.2.3-macos.dmg",
                 "name": "DMG",
                 "fileName": "Sofar-Hangolo-1.2.3-macos.dmg",
-                "downloadCount": 0,
-                "downloadCountLabel": "0 letöltés",
+                "downloadCount": 1,
+                "downloadCountLabel": "1 letöltés",
                 "sizeBytes": 35935795,
                 "sizeLabel": "34.3 MB"
               }
@@ -170,8 +170,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.3%2B1020300/sofar-hangolo-1.2.3-linux-x86_64.flatpak",
                 "name": "Flatpak",
                 "fileName": "sofar-hangolo-1.2.3-linux-x86_64.flatpak",
-                "downloadCount": 4,
-                "downloadCountLabel": "4 letöltés",
+                "downloadCount": 5,
+                "downloadCountLabel": "5 letöltés",
                 "sizeBytes": 12823352,
                 "sizeLabel": "12.2 MB"
               }
