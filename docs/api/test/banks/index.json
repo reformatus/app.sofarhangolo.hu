@@ -1,7 +1,11 @@
 [
   {
     "name": "Sófár Kottatár V2 Teszt",
-    "api": "https://sofarkotta.hu/api/v2",
+    "api": "https://sofarkotta.hu/api",
+    "apiVersions": {
+      "v1": "https://sofarkotta.hu/api",
+      "v2": "https://sofarkotta.hu/api/v2"
+    },
     "defaultEnabled": true
   }
 ]
