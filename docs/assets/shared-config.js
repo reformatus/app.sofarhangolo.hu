@@ -28,8 +28,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.0.2%2B102/app-release-universal.102.apk",
                 "name": "APK",
                 "fileName": "app-release-universal.102.apk",
-                "downloadCount": 27,
-                "downloadCountLabel": "27 letöltés",
+                "downloadCount": 28,
+                "downloadCountLabel": "28 letöltés",
                 "sizeBytes": 89297587,
                 "sizeLabel": "85.2 MB"
               }
@@ -113,8 +113,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.5%2B1020500/sofar-hangolo-1.2.5%2B1020500.ipa",
                 "name": "IPA",
                 "fileName": "sofar-hangolo-1.2.5+1020500.ipa",
-                "downloadCount": 0,
-                "downloadCountLabel": "0 letöltés",
+                "downloadCount": 1,
+                "downloadCountLabel": "1 letöltés",
                 "sizeBytes": 28843145,
                 "sizeLabel": "27.5 MB"
               }
@@ -129,8 +129,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.5%2B1020500/sofar-hangolo-1.2.5-windows-store.msix",
                 "name": "MSIX csomag",
                 "fileName": "sofar-hangolo-1.2.5-windows-store.msix",
-                "downloadCount": 0,
-                "downloadCountLabel": "0 letöltés",
+                "downloadCount": 1,
+                "downloadCountLabel": "1 letöltés",
                 "sizeBytes": 21756682,
                 "sizeLabel": "20.7 MB"
               },
@@ -154,8 +154,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.5%2B1020500/Sofar-Hangolo-1.2.5-macos.dmg",
                 "name": "DMG",
                 "fileName": "Sofar-Hangolo-1.2.5-macos.dmg",
-                "downloadCount": 0,
-                "downloadCountLabel": "0 letöltés",
+                "downloadCount": 1,
+                "downloadCountLabel": "1 letöltés",
                 "sizeBytes": 36440892,
                 "sizeLabel": "34.8 MB"
               }
@@ -170,8 +170,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.5%2B1020500/sofar-hangolo-1.2.5-linux-x86_64.flatpak",
                 "name": "Flatpak",
                 "fileName": "sofar-hangolo-1.2.5-linux-x86_64.flatpak",
-                "downloadCount": 1,
-                "downloadCountLabel": "1 letöltés",
+                "downloadCount": 2,
+                "downloadCountLabel": "2 letöltés",
                 "sizeBytes": 12654288,
                 "sizeLabel": "12.1 MB"
               }
