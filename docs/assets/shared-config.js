@@ -28,8 +28,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.0.2%2B102/app-release-universal.102.apk",
                 "name": "APK",
                 "fileName": "app-release-universal.102.apk",
-                "downloadCount": 28,
-                "downloadCountLabel": "28 letöltés",
+                "downloadCount": 30,
+                "downloadCountLabel": "30 letöltés",
                 "sizeBytes": 89297587,
                 "sizeLabel": "85.2 MB"
               }
@@ -170,8 +170,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.5%2B1020500/sofar-hangolo-1.2.5-linux-x86_64.flatpak",
                 "name": "Flatpak",
                 "fileName": "sofar-hangolo-1.2.5-linux-x86_64.flatpak",
-                "downloadCount": 2,
-                "downloadCountLabel": "2 letöltés",
+                "downloadCount": 3,
+                "downloadCountLabel": "3 letöltés",
                 "sizeBytes": 12654288,
                 "sizeLabel": "12.1 MB"
               }
