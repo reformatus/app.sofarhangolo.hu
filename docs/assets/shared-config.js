@@ -129,8 +129,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.5%2B1020500/sofar-hangolo-1.2.5-windows-store.msix",
                 "name": "MSIX csomag",
                 "fileName": "sofar-hangolo-1.2.5-windows-store.msix",
-                "downloadCount": 1,
-                "downloadCountLabel": "1 letöltés",
+                "downloadCount": 2,
+                "downloadCountLabel": "2 letöltés",
                 "sizeBytes": 21756682,
                 "sizeLabel": "20.7 MB"
               },
@@ -138,8 +138,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.2.5%2B1020500/sofar-hangolo-1.2.5-windows-x64-setup.exe",
                 "name": "Telepítő",
                 "fileName": "sofar-hangolo-1.2.5-windows-x64-setup.exe",
-                "downloadCount": 0,
-                "downloadCountLabel": "0 letöltés",
+                "downloadCount": 1,
+                "downloadCountLabel": "1 letöltés",
                 "sizeBytes": 16069879,
                 "sizeLabel": "15.3 MB"
               }
