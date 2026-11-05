@@ -28,8 +28,8 @@ window.sofarSharedConfig = {
                 "url": "https://github.com/reformatus/sofarhangolo/releases/download/1.0.2%2B102/app-release-universal.102.apk",
                 "name": "APK",
                 "fileName": "app-release-universal.102.apk",
-                "downloadCount": 30,
-                "downloadCountLabel": "30 letöltés",
+                "downloadCount": 31,
+                "downloadCountLabel": "31 letöltés",
                 "sizeBytes": 89297587,
                 "sizeLabel": "85.2 MB"
               }
